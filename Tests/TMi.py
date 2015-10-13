@@ -6,7 +6,7 @@ import Main.PMi
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):
-        self.assertEqual(Main.PMi.sizelist([1,2,3]), 3)
+        self.assertEqual(Main.PMi.sizelist([1,2,4]), 3)
 
 
 if __name__ == '__main__':
